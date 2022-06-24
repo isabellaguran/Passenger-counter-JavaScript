@@ -22,6 +22,9 @@ function save() {
     // 3. Render the variable in the saveEl using innerText
     saveEl.textContent += countStr   //no inner.Text so we don`t have spaces,we saw it on MDM
      // NB: Make sure to not delete the existing content of the paragraph
+    //SET COUNT TO ZERO - we continue writing some code into the save() function
+    countEl.textContent = 0
+    count = 0 //also we set the count back to zero in the function
     
     console.log(count)
 }
