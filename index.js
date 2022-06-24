@@ -12,3 +12,10 @@ function increment(){
     countEl.innerText=count //we modify the value in the html of the countEl that is the id count-el ,so the text inside it we want to be the count We also see it now actually the value written to our preview on the button is changed each time we press on it with the count
     console.log(count)
 }
+
+//Create a function, save(), which logs out the count when it's called
+function save() {
+    console.log(count)
+}
+
+save()
